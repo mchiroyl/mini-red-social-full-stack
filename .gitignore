@@ -156,3 +156,6 @@ setup-pro.ps1
 *.bak
 *.backup
 *.cache
+
+# ==================== Claude Code ====================
+.claude/
