@@ -389,7 +389,7 @@ GET    /api/notifications              - Obtener notificaciones
 POST   /api/notifications/seen         - Marcar como vistas
 ```
 
-**📚 Documentación completa:** https://mini-red-social-full-stack-pge1.onrender.com/docs (Swagger UI)
+**📚 Documentación completa:** http://localhost:4000/docs (Swagger UI)
 
 ---
 
