@@ -1,0 +1,158 @@
+# ============================================
+# Mini Red Social - GitIgnore
+# ============================================
+
+# ==================== Node ====================
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ==================== Next.js ====================
+# Next.js build output
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/dist/
+
+# Next.js cache
+frontend/.next/cache/
+
+# ==================== Environment Variables ====================
+# IMPORTANT: Never commit these files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env*.local
+backend/.env
+frontend/.env.local
+
+# Keep example files for reference
+!.env.example
+!.env.local.example
+!backend/.env.example
+!frontend/.env.local.example
+
+# ==================== Database ====================
+# PostgreSQL data
+*.sql.backup
+*.dump
+db_data/
+
+# ==================== Docker ====================
+# Docker volumes and data
+docker-compose.override.yml
+
+# ==================== Logs ====================
+logs/
+*.log
+*.log.*
+
+# ==================== OS Generated Files ====================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+nul
+
+# Linux
+*~
+
+# ==================== IDEs and Editors ====================
+# VSCode
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json.example
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ==================== Testing ====================
+coverage/
+*.lcov
+.nyc_output/
+
+# ==================== Temporary Files ====================
+*.tmp
+*.temp
+tmp/
+temp/
+
+# ==================== Build Artifacts ====================
+dist/
+build/
+*.tsbuildinfo
+
+# ==================== SSL Certificates ====================
+# Keep example certs, ignore real ones
+proxy/certs/*.pem
+proxy/certs/*.key
+proxy/certs/*.crt
+!proxy/certs/.gitkeep
+
+# ==================== Compressed Files ====================
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+
+# ==================== Project Specific ====================
+# Deployment guides (keep only main README)
+DEPLOYMENT-GUIDE.md
+README-PRO.md
+GUIA-PRUEBAS.md
+setup-pro.ps1
+
+# Keep only one README
+# README.md will be recreated with complete info
+
+# ==================== Vercel ====================
+.vercel
+
+# ==================== Railway ====================
+.railway/
+
+# ==================== Miscellaneous ====================
+*.bak
+*.backup
+*.cache
